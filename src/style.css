@@ -1,0 +1,51 @@
+.sound{
+    visibility: hidden;
+}
+
+.blok{
+    display: flex;
+    height: 50px;
+    width: 800px;
+    justify-content: center;
+
+    position: absolute;
+    top: 50px;
+}
+.blok #btnSearch {
+    background-color:#8B5CF6;
+    margin-left:60px;
+}
+.blok input{
+    outline: none;
+    border-bottom: 3px solid #8B5CF6;
+    width: 40%;
+    margin-left: 10px;
+}
+
+.history{
+    background-color: #8B5CF6;
+    color: white;
+    margin-left: 20px;
+    width: 150px;
+}
+
+.words{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    height: fit-content;
+    position: fixed;
+    right: 100px;
+    width: 200px;
+    top: 50px;
+    display: block;
+    word-wrap: break-word;
+}
+.wdis{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    height: fit-content;
+    position: fixed;
+    display: none;
+}

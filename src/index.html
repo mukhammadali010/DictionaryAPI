@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./output.css" />
+    <title>DictionaryApi</title>
+  </head>
+
+  <body class="bg-violet-500 flex align-middle justify-center h-screen border relative">
+    <div class="blok">
+      <input
+        type="text"
+        name="inp"
+        id="inp-search"
+        placeholder="Type here"
+        class="outline-none border-b-2 border-violet-500 text-xl w-8/12"
+      />
+      <button
+        class="border-none w-32 h-12 rounded border border-red-500 text-white"
+        id="btnSearch"
+      >
+        Search
+      </button>
+     
+    </div>
+    <div
+      class="bg-white w-6/12 m-12 px-16 py-10 flex-col rounded"
+      id="wordBox"
+    ></div>
+    <div class="words">
+        History of Words
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
